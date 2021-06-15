@@ -1,0 +1,17 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:dashboard.html'}
+components:
+- type: ColumnPanel
+  properties: {col_widths: '{}'}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: TextArea
+    properties: {role: null, align: left, height: '', tooltip: '', placeholder: '',
+      border: '', enabled: true, foreground: '', visible: true, text: Kopieer de reacties van het bericht in deze box,
+      font_size: null, auto_expand: false, font: '', spacing_above: small, spacing_below: small,
+      italic: false, background: '', bold: false, underline: false}
+    name: text_area_1
+    layout_properties: {grid_position: 'ASKQPP,SHJJDH'}
