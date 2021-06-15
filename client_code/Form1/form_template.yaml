@@ -15,3 +15,4 @@ components:
       italic: false, background: '', bold: false, underline: false}
     name: text_area_1
     layout_properties: {grid_position: 'ASKQPP,SHJJDH'}
+    event_bindings: {change: text_area_1_change}

@@ -9,3 +9,11 @@ class Form1(Form1Template):
 
     # Any code you write here will run when the form opens.
     
+
+  def text_area_1_change(self, **event_args):
+    """This method is called when the text in this text area is edited"""
+    tekst=self.text_area_1.text
+    for item in tekst: 
+      print(item, 'gelukt')
+    
+
