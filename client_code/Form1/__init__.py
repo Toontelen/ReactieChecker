@@ -25,7 +25,8 @@ class Form1(Form1Template):
 
   def ButtonCheckLeiding_click(self, **event_args):
     """This method is called when the button is clicked"""
-    text= self.text_area_1_change.get_input()
+    print("buttonclick")
+    
     
     pass
 
