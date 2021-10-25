@@ -13,21 +13,32 @@ class Form1(Form1Template):
 
   def text_area_1_change(self, **event_args):
     """This method is called when the text in this text area is edited"""
-    text=self.ReactiesInput
-    print(text)
     
-    def get_input(self):
-      return text
+    
+    
+    
     
  
         
     
 
   def ButtonCheckLeiding_click(self, **event_args):
+    leidingslijst=list(["Toon Telen", "Stan Schepers"])
+    niet_gereageerd=list([])
     """This method is called when the button is clicked"""
     print("buttonclick")
+    text=self.ReactiesInput.text
+    for item in leidingslijst:
+      if item not in text:
+        print("not in text!!")
+        niet_gereageerd.append(item)
+        print("list appended")
+        
+    for item2 in leidingslijst:
+      self.output.text=leidingslijst
     
     
-    pass
+    
+    
 
 
