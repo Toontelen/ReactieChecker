@@ -13,14 +13,7 @@ class Form1(Form1Template):
 
   def text_area_1_change(self, **event_args):
     """This method is called when the text in this text area is edited"""
-    tekst=self.text_area_1.text
-    
-  def check_lijst(self):
-    tekst=self.text_area_1.text
-    leidingslijst=list(['Toon Telen', 'Ken Vanoosterhout','Stan Schepers'])
-    for leiding in leidingslijst:
-      if leiding in tekst: 
-        print(leiding, 'zit in de tekst')
+ 
         
     
 
