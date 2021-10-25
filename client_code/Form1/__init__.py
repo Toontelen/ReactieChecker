@@ -27,18 +27,16 @@ class Form1(Form1Template):
     niet_gereageerd=list([])
     """This method is called when the button is clicked"""
     print("buttonclick")
-    text=self.ReactiesInput.text
-    for item in leidingslijst:
-      if item not in text:
-        print("not in text!!")
-        niet_gereageerd.append(item)
-        print("list appended")
-        
-    for item2 in leidingslijst:
-      self.output.text=leidingslijst
+    reacties=open(self.file_loader_1.file,"r")
     
     
     
     
+    
+
+  def file_loader_1_change(self, file, **event_args):
+    """This method is called when a new file is loaded into this FileLoader"""
+    
+
 
 
