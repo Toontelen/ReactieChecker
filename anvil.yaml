@@ -1,9 +1,29 @@
-services: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {auto_create_missing_columns: true}
 package_name: Leidingslijst
 allow_embedding: false
 name: Leidingslijst
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox}
 metadata: {}
-startup_form: Form1
-db_schema: {}
+startup_form: Facebookfilter
+db_schema:
+  to_do_list:
+    title: To do list
+    client: none
+    server: full
+    columns:
+    - name: Index
+      admin_ui: {width: 200}
+      type: number
+    - name: To do
+      admin_ui: {width: 200}
+      type: string
+    - name: Done?
+      admin_ui: {width: 200}
+      type: bool
+    - name: Deadline
+      admin_ui: {width: 200}
+      type: date
 renamed: true
