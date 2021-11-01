@@ -26,7 +26,8 @@ class Facebookfilter(FacebookfilterTemplate):
     
 
   def ButtonCheckLeiding_click(self, **event_args):
-    leidingslijst=list(["Kobe Lobbinger",
+    leidingslijst=list(["Kobe Lobbinger",                     
+
 "Ward Borghoms",
 "Joris Ganne",
 "Keanu Reekmans",

@@ -51,7 +51,3 @@ components:
   name: rich_text_1
   layout_properties: {slot: title}
   components: []
-- type: form:Form1
-  properties: {}
-  name: custom_1
-  layout_properties: {slot: default}
