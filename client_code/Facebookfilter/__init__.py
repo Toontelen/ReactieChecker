@@ -4,6 +4,8 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
+from Form2 import Form2
+# from Facebookfilter import Facebookfilter
 
 class Facebookfilter(FacebookfilterTemplate):
   def __init__(self, **properties):
@@ -18,16 +20,17 @@ class Facebookfilter(FacebookfilterTemplate):
     """This method is called when the text in this text area is edited"""
     
     
-    
-    
+#   def link_1_click(self, **event_args):
+#     """This method is called when the link is clicked"""
+#     self.content_panel.clear()
+#     self.content_panel.add_component(Form2())
+     
     
  
-        
     
 
   def ButtonCheckLeiding_click(self, **event_args):
-    leidingslijst=list(["Kobe Lobbinger",                     
-
+    leidingslijst=list(["Kobe Lobbinger",
 "Ward Borghoms",
 "Joris Ganne",
 "Keanu Reekmans",
