@@ -34,7 +34,7 @@ components:
       spacing_above: small, icon_align: left, spacing_below: small, italic: false,
       background: '', bold: false, underline: false, icon: ''}
     name: ButtonCheckLeiding
-    layout_properties: {grid_position: 'MHDJBP,NJAOKC'}
+    layout_properties: {grid_position: 'AXXJUB,TTBBEK'}
     event_bindings: {click: ButtonCheckLeiding_click}
   - type: TextBox
     properties: {}
