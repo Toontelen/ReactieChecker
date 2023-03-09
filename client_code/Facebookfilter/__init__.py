@@ -4,7 +4,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
-from Form2 import Form2
+from teller import teller
 # from Facebookfilter import Facebookfilter
 
 class Facebookfilter(FacebookfilterTemplate):
@@ -104,7 +104,9 @@ class Facebookfilter(FacebookfilterTemplate):
 
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""
-    pass
+    self.content_panel.clear()
+    self.content_panel.add_component(teller())
+    
 
     
 

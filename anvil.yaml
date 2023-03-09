@@ -28,4 +28,15 @@ db_schema:
     - name: Done?
       admin_ui: {width: 200}
       type: bool
+  table_2:
+    client: none
+    server: full
+    columns:
+    - name: Naam leiding
+      admin_ui: {order: 0, width: 200}
+      type: string
+    - name: Score
+      admin_ui: {order: 2, width: 200}
+      type: number
+    title: Table 2
 renamed: true
