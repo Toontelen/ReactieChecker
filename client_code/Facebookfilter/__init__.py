@@ -168,6 +168,7 @@ class Facebookfilter(FacebookfilterTemplate):
       leidingslijst2.append(leider)
     reacties= self.text_area_1.text
     score_dict=dict()
+    sortedDict=dict()
     tekst=[]
     for index, zin in enumerate(reacties):
       zin=zin.lower()
@@ -196,15 +197,15 @@ class Facebookfilter(FacebookfilterTemplate):
     sortedDict = dict(sorted(score_dict.items(), key=lambda x: x[0].lower()) )
         
     for k,v in sortedDict.items():
-      print('{}:{}'.format(k,v))
+      self.output.text=('{}: {}'.format(k,v))
         
     aantal_aanwezig=len(sortedDict.items())
     print("aantal leiding aanwezig:",aantal_aanwezig)
     
     # print(sortedDict.keys())
-    self.output.text=sortedDict.items()
+    # self.output.text=sortedDict.items()
     self.text_box_1.text= (f"Er is {len(sortedDict.keys())} leiding afwezig")
-
+    self.output.text=sortedDict.items()
 
     
 
