@@ -4,7 +4,6 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
-from teller import teller
 import re
 # import pandas as pd
 # from Facebookfilter import Facebookfilter
@@ -106,8 +105,9 @@ class Facebookfilter(FacebookfilterTemplate):
 
   def link_1_click(self, **event_args):
     """This method is called when the link is clicked"""
-    self.content_panel.clear()
-    self.content_panel.add_component(teller())
+    # self.content_panel.clear()
+    # self.content_panel.add_component(teller())
+    pass
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
@@ -164,14 +164,14 @@ class Facebookfilter(FacebookfilterTemplate):
     leidingslijst2=list() 
     for leider in leidingslijst:
       leider=leider.strip()
-      leider=leider.lower()
+      # leider=leider.lower()
       leidingslijst2.append(leider)
     reacties= self.text_area_1.text
     score_dict=dict()
     sortedDict=dict()
     tekst=[]
     for index, zin in enumerate(reacties):
-      zin=zin.lower()
+      # zin=zin.lower()
       zin=zin.strip()
       tekst.append(zin)
 
@@ -179,6 +179,7 @@ class Facebookfilter(FacebookfilterTemplate):
     #     print(i,t)
         match = re.search('aanwezig', t)
         if match:
+            print("we hebben een match!")
             if tekst[i-1] in leidingslijst2:
     #             print("leiding gevonden:", tekst[i-1])
                 score_dict[tekst[i-1]]=+1  

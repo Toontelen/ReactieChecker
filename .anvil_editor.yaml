@@ -1,9 +1,6 @@
 unique_ids:
   forms:
     Facebookfilter: 3GOQVLITUR2NURE3XFKCZUGCT3L7MJO2
-    Facebookfilter.teller: I5H4SDMUM6PZSWFAUZLIFPTRO5XA42WH
-    Facebookfilter.teller.RowTemplate1: '1678368307012695991907100.0238'
-    Facebookfilter.teller.RowTemplate2: '1678368347912589241655342.1946'
   modules: {}
   server_modules:
     ServerModule1: 2OPIZCZCAVD7OSVB2KYRMO27HJQBB26I
