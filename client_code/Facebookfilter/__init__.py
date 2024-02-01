@@ -54,7 +54,6 @@ class Facebookfilter(FacebookfilterTemplate):
 "Mano De Raeve",
 "Liam Beckx",
 "Anna Kuppers",
-"Rik Van Avermaet",
 "Robbe Geijsels",
 "Lyana Slegers",
 "Wout Lieten",
