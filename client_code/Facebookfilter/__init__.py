@@ -87,7 +87,7 @@ class Facebookfilter(FacebookfilterTemplate):
     # self.content_panel.clear()
     # self.content_panel.add_component(teller())
     pass
-
+"""
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     leidingslijst=list(["Kobe Lobbinger",
@@ -188,7 +188,7 @@ class Facebookfilter(FacebookfilterTemplate):
     self.output.text=sortedDict.items()
 
     
-
+"""
     
 
 

@@ -36,23 +36,6 @@ components:
     name: ButtonCheckLeiding
     layout_properties: {grid_position: 'AXXJUB,TTBBEK'}
     event_bindings: {click: ButtonCheckLeiding_click}
-  - type: Button
-    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
-      foreground: '', visible: true, text: Tel de aanwezigheden!, font_size: null,
-      font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
-      background: '', bold: false, underline: false, icon: ''}
-    name: button_1
-    layout_properties: {grid_position: 'UIUMXP,PGFQUL'}
-    event_bindings: {click: button_1_click}
-  - type: TextBox
-    properties: {}
-    name: text_box_1
-    layout_properties: {grid_position: 'AVCGTB,KWZDDN'}
-  - type: TextArea
-    properties: {height: 486.66666412353516}
-    name: output
-    layout_properties: {grid_position: 'DIGWNM,CWZRPH'}
-    event_bindings: {change: output_change}
 - type: RichText
   properties: {role: null, align: left, tooltip: '', enable_slots: true, border: '',
     foreground: '', visible: true, font_size: null, content: Reactie Checker, font: '',
