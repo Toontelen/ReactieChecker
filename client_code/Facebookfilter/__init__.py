@@ -188,6 +188,10 @@ class Facebookfilter(FacebookfilterTemplate):
     self.text_box_1.text= (f"Er is {len(sortedDict.keys())} leiding afwezig")
     self.output.text=sortedDict.items()
 
+  def output_change(self, **event_args):
+    """This method is called when the text in this text area is edited"""
+    pass
+
     
 
     
