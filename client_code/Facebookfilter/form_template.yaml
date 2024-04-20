@@ -41,7 +41,7 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'WNBPOO,HALNYJ'}
   - name: output
-    properties: {}
+    properties: {height: 589}
     type: TextArea
     layout_properties: {grid_position: 'JXUZPU,AHVUOO'}
     event_bindings: {change: output_change}
