@@ -6,8 +6,7 @@ startup: {type: form, module: Facebookfilter}
 package_name: Leidingslijst
 allow_embedding: false
 name: Leidingslijst
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox, server_spec: null}
 metadata: {}
 startup_form: Facebookfilter
 db_schema:
